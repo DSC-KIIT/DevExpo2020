@@ -5,25 +5,27 @@ import './header.css'
 
 const Header = () => (
     <header>
-        <h3>DevExpo</h3>
-        <h4>
-            <Link to="/">Home</Link>
-        </h4>
+        <div className="nav-container">
+            <ul>
+                <li className="brand">DevExpo</li>
+                <li className="links"><Link style={{color: 'white', textDecoration: 'none'}} to="/">Home</Link></li>
+                <li className="links"><Link style={{color: 'white', textDecoration: 'none'}} to="/agenda">Agenda</Link></li>
+            </ul>
+        </div>
         
-        <h4>
-            <Link to="/agenda">Agenda</Link>
-        </h4>
+        <div className="venue-button-container">
+            <div className="venue-text">
+                <p>
+                    14 - 15 March, 2020<br></br>
+                    <span>KIIT Campus 7 Auditorium, BBSR</span>
+                </p>
+            </div>
 
-        <div>
-            <p>
-                14 - 15 March, 2020
-                KIIT Campus 7 Auditorium, BBSR
-            </p>
+            <div className="register-button">
+                <button>Register Here</button>
+            </div>
         </div>
-
-        <div>
-            <button>Register Here</button>
-        </div>
+        
     </header>
 )
 
