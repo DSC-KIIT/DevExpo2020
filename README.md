@@ -3,6 +3,8 @@
 Wireframes and other resources:
 https://drive.google.com/drive/folders/1LowAKwIQVo1VoYzuqHxt3yb_mp2aeBnV
 
+Website hosted at: https://devexpo2020.firebaseapp.com/
+
 The project is built using GatsbyJS to use server side rendering with react to compile the site into static assets and drastically reduce initial load time(time to first paint).
 
 Read more about **GatsbyJS** [here](https://www.gatsbyjs.org/).
