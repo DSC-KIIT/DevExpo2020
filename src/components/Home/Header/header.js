@@ -22,7 +22,9 @@ const Header = () => (
             </div>
 
             <div className="register-button">
-                <button>Register Here</button>
+                <button>
+                    <a href="https://bit.ly/DevExpo2020">Register Here</a>
+                </button>
             </div>
         </div>
         

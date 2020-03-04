@@ -88,3 +88,8 @@ header {
     padding-right: 2rem;
     border-radius: 1.2rem;
 }
+
+.venue-button-container button a {
+    color: white;
+    text-decoration: none;
+}

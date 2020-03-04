@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../../fonts/OpenSans/OpenSans-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../../fonts/OpenSans/OpenSans-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../../fonts/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'Bebas Neue';
+    src: url('../../../fonts/BebasNeue-Regular.ttf');
+}
+    
+
+.landing-container {
+    background-color: #202124;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.timer {
+    text-align: center;
+    color: white;
+    
+}
+
+.timer p {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.9rem;
+    word-spacing: 0.6rem;
+}
+
+.landing-text {
+    text-align: center;
+}
+
+.landing-text p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.landing-text h1 {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Bebas Neue';
+    color: #F25022;
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+}
+
+.landing-text h2 {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    word-spacing: 0.2rem;
+}
+
+.presented-text {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-container img {
+    padding: 1.5rem;
+}
+
+.logo-container p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .timer p {
+        font-size: 1.2rem;
+        word-spacing: 0.3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .landing-text h1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 3.2rem;
+    }
+
+    .landing-text h2 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .logo-container img {
+        width: 250px;
+        padding: 1rem;
+    }
+
+    .logo-container p {
+        display: none
+    }
+}

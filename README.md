@@ -5,6 +5,8 @@ https://drive.google.com/drive/folders/1LowAKwIQVo1VoYzuqHxt3yb_mp2aeBnV
 
 Website hosted at: https://devexpo2020.firebaseapp.com/
 
+Page Speed Insights available [here](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdevexpo2020.firebaseapp.com%2F&tab=mobile)
+
 The project is built using GatsbyJS to use server side rendering with react to compile the site into static assets and drastically reduce initial load time(time to first paint).
 
 Read more about **GatsbyJS** [here](https://www.gatsbyjs.org/).
