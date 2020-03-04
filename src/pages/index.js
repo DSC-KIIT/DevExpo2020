@@ -4,6 +4,7 @@ import React from "react"
 import SEO from '../components/seo'
 import Header from '../components/Home/Header/header'
 import Landing from '../components/Home/Landing/landing'
+import ExcitingExpo from '../components/Home/ExcitingExpo/excitingExpo'
 import Contact from '../components/Home/Contact/contact'
 import Newsletter from '../components/Home/Newsletter/newsletter'
 
@@ -14,8 +15,7 @@ const IndexPage = () => (
     <SEO title="DevExpo 2.0"></SEO>
     <Header></Header>
     <Landing></Landing>
-    <br></br>
-    <h1>Hello World</h1>
+    <ExcitingExpo></ExcitingExpo>
     <Newsletter/>
     <Contact/>
   </div>
