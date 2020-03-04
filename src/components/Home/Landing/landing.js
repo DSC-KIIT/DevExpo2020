@@ -49,6 +49,7 @@ class Landing extends Component {
                     <p>x</p>
                     <img alt="msp_logo" src={msp_full_logo} width="300"></img>
                 </div>
+                <br></br>
             </div>
         )
     }
