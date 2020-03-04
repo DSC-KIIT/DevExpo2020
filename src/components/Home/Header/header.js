@@ -17,7 +17,7 @@ const Header = () => (
             <div className="venue-text">
                 <p>
                     14 - 15 March, 2020<br></br>
-                    <span>KIIT Campus 7 Auditorium, BBSR</span>
+                    <span>KIIT Campus 17 Auditorium, BBSR</span>
                 </p>
             </div>
 
