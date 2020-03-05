@@ -14,7 +14,7 @@ import fbLogo from "../../../assets/Mask Group -7@2x.png"
 
 const contact = () => {
   return (
-    <div>
+    <div className="contact-container">
       <div className="footer-dark d-none d-lg-block">
         <div className="container">
           <footer>
@@ -112,11 +112,11 @@ const contact = () => {
           <div className="footer-basic" style={{ backgroundColor: "#000000" }}>
             <br /> <br />
             <h3 className="text-center text-white">
-              <strong>Dev Expo</strong>
+              <strong>DevExpo 2.0</strong>
             </h3>
-            <hr style={{ width: "500px" }} />
-            <div className="row">
-              <div className="col text-center">
+            <br></br>
+            <div className="row" style={{width: '100%', margin: '0rem'}}>
+              <div className="col text-center" style={{padding: '0rem'}}>
                 <a href="https://www.instagram.com/dsckiit/" target="__blank">
                   <img src={instaLogo} width={20} />
                 </a>{" "}
@@ -131,8 +131,8 @@ const contact = () => {
               </div>
             </div>
             <br />
-            <div className="row privacy-text">
-              <div className="col text-center">
+            <div className="row privacy-text" style={{width: '100%', margin: '0rem'}}>
+              <div className="col text-center" style={{margin: '0rem'}}>
                 <span className="text-white">
                   <a href="#" target="__blank">
                     Privacy Policies
@@ -140,8 +140,8 @@ const contact = () => {
                 </span>
               </div>
             </div>
-            <div className="row privacy-text">
-              <div className="col text-center">
+            <div className="row privacy-text" style={{width: '100%', margin: '0rem'}}>
+              <div className="col text-center" style={{margin: '0rem'}}>
                 <span className="text-white">
                   <a href="#" target="__blank">
                     Terms &amp; Conditions

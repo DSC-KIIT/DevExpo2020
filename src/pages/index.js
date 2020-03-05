@@ -14,9 +14,9 @@ const IndexPage = () => (
     <SEO title="DevExpo 2.0"></SEO>
     <Header></Header>
     <Landing></Landing>
-    <ExcitingExpo></ExcitingExpo>
-    <Newsletter />
-    <Contact />
+    {/* <ExcitingExpo></ExcitingExpo> */}
+    <Newsletter></Newsletter>
+    <Contact></Contact>
   </div>
 )
 
