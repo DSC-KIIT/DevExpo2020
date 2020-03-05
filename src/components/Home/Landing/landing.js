@@ -34,7 +34,7 @@ class Landing extends Component {
     render(){
         return (
             <div className="landing-container">
-                <br></br>
+                <br></br><br></br>
                 <div className="timer" id="timer"></div>
 
                 <div className="landing-text">
