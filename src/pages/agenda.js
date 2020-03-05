@@ -1,7 +1,14 @@
 import React from "react"
 
+import Header from "../components/Home/Header/header"
+
 const AgendaPage = () => {
-  return <div>I am agenda page</div>
+  return (
+    <div>
+      <Header></Header>
+    </div>
+    
+    )
 }
 
 export default AgendaPage
