@@ -4,8 +4,8 @@ import SEO from "../components/seo"
 import Header from "../components/Home/Header/header"
 import Landing from "../components/Home/Landing/landing"
 import ExcitingExpo from "../components/Home/ExcitingExpo/excitingExpo"
-import Contact from "../components/Home/Contact/contact"
 import Newsletter from "../components/Home/Newsletter/newsletter"
+import Contact from "../components/Home/Contact/contact"
 
 import "./css/home.css"
 
