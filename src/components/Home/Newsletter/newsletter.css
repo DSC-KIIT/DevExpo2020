@@ -29,7 +29,6 @@
 }
 
 .newsletter-container input[type="submit"] {
-    margin-left: 3rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 1rem;
@@ -40,4 +39,11 @@
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 1.2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .newsletter-container .email-input {
+        width: 90%;
+        margin: 0rem;
+    }
 }
