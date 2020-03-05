@@ -30,7 +30,7 @@ const ExcitingExpo = () => {
       </div>
 
       <div className="details-container-two">
-        <img loading="lazy" alt="speaker" src={speakerImage2}></img>
+        <img loading="lazy" alt="speaker2" src={speakerImage2}></img>
         
         <h1>
             <br></br>
@@ -48,8 +48,8 @@ const ExcitingExpo = () => {
       </div>
 
       <div className="image-container-two">
-        <img loading="lazy" alt="speaker" src={audienceImage}></img>
-        <img loading="lazy" alt="speaker" src={audienceImage2}></img>
+        <img alt="audience" loading="lazy" src={audienceImage}></img>
+        <img alt="audience2" loading="lazy" src={audienceImage2}></img>
       </div>
 
     </div>

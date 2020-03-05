@@ -1,13 +1,22 @@
-import React from 'react'
+import React from "react"
 
-const newsletter = () => {
-    return(
-        <div>
-        <p>Subscribe to our newsletter to keep yourself updated about events</p>
+import './newsletter.css'
 
-
-        </div>
-    )
+const submit = () => {
+    console.log("Submitted")
 }
 
-export default newsletter;
+const newsletter = () => {
+  return (
+    <div className="newsletter-container">
+      <form onSubmit={submit}>
+        <h1>Subscribe to our newsletter to keep <br></br> yourself updated about events</h1>
+        <input className="email-input" type="email" placeholder="Enter your email address"></input>
+        <input type="submit"></input>
+      </form>
+        
+    </div>
+  )
+}
+
+export default newsletter
