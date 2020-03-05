@@ -23,12 +23,15 @@ class Landing extends Component {
 
       const timerText = document.getElementById("timer")
 
-      timerText.innerHTML = `<p>${days} DAYS ${hours} HRS ${minutes} MINS ${seconds} SECS</p>`
-
-      if (distance < 0) {
-        clearInterval(x)
-        timerText.innerHTML = "Its Show Time !!"
+      if (timerText !== null) {
+        timerText.innerHTML = `<p>${days} DAYS ${hours} HRS ${minutes} MINS ${seconds} SECS</p>`
+  
+        if (distance < 0) {
+          clearInterval(x)
+          timerText.innerHTML = "Its Show Time !!"
+        }
       }
+
     }, 1000)
   }
 
