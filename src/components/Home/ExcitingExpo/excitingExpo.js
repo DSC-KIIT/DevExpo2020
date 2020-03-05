@@ -1,7 +1,11 @@
 import React from "react"
+import {Link} from 'gatsby'
 
 import "./excitingExpo.css"
 import speakerImage from "../../../images/five.jpg"
+import speakerImage2 from "../../../images/four.jpg"
+import audienceImage from "../../../images/two.jpg"
+import audienceImage2 from "../../../images/three.jpg"
 
 const ExcitingExpo = () => {
   return (
@@ -20,9 +24,32 @@ const ExcitingExpo = () => {
           KIIT Deemed to be University, Odisha <br></br>
         </h3>
       </div>
-      
+
       <div className="image-container">
         <img loading="lazy" alt="speaker" src={speakerImage}></img>
+      </div>
+
+      <div className="details-container-two">
+        <img loading="lazy" alt="speaker" src={speakerImage2}></img>
+        
+        <h1>
+            <br></br>
+            Join us for <span>two days</span> of immense knowledge and high tech insights. 
+            Get to talk to <span>industry experts</span>, ask queries and much more.
+        </h1>
+
+        <br></br>
+
+        <button>
+            <Link style={{ color: "white", textDecoration: "none" }} to="/agenda">
+                See Agenda
+            </Link>
+        </button>
+      </div>
+
+      <div className="image-container-two">
+        <img loading="lazy" alt="speaker" src={audienceImage}></img>
+        <img loading="lazy" alt="speaker" src={audienceImage2}></img>
       </div>
 
     </div>
