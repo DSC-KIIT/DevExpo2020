@@ -18,6 +18,11 @@ const Header = () => (
             Agenda
           </Link>
         </li>
+        <li className="links">
+          <Link style={{ color: "white", textDecoration: "none" }} to="/faq">
+            FAQ
+          </Link>
+        </li>
       </ul>
     </div>
 

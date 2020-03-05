@@ -21,7 +21,8 @@
     width: 40%;
     border: 0;
     color: #f29b3d;    
-    border-bottom: 1px solid #f29b3d
+    border-bottom: 1px solid #f29b3d;
+    background-color: #FAFAFA;
 }
 
 .newsletter-container .email-input:focus {
