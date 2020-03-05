@@ -150,17 +150,22 @@
         justify-content: center;
     }
 
+    .details-container-two h1 {
+        margin-left: 2rem;
+        margin-right: 1.3rem;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
     .image-container-two {
+        padding: 2rem;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
-    .details-container-two img {
-
-    }
-
-
     .image-container-two img {
-
+        width: 100%;
+        height: auto;
     }
 }
