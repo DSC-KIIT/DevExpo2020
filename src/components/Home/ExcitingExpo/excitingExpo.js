@@ -6,14 +6,6 @@ import speakerImage from "../../../images/five.jpg"
 const ExcitingExpo = () => {
   return (
     <div className="exciting-expo-container">
-      <div className="image-container">
-        <img loading="lazy" alt="speaker" src={speakerImage}></img>
-      </div>
-
-      <div className="container-2020">
-        <span>2020</span>
-      </div>
-
       <div className="details-text-container">
         <h1>
           You are about to <br></br>
@@ -28,6 +20,11 @@ const ExcitingExpo = () => {
           KIIT Deemed to be University, Odisha <br></br>
         </h3>
       </div>
+      
+      <div className="image-container">
+        <img loading="lazy" alt="speaker" src={speakerImage}></img>
+      </div>
+
     </div>
   )
 }
