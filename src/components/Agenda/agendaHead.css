@@ -1,0 +1,23 @@
+.agenda-head-container {
+    background-color: #202124;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 12rem;
+    padding-top: 1rem;
+}
+
+.agenda-head-container h1 {
+    margin: 0rem;
+    padding: 0rem;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #bd0168
+}
+
+.agenda-head-container h6 {
+    margin: 0rem;
+    padding: 0rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: white;
+    padding-top: 1rem;
+}

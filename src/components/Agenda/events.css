@@ -1,0 +1,44 @@
+.events-container {
+    padding: 4rem;
+    padding-left: 12rem;
+    padding-right: 14rem;
+    background-color: #202124;
+}
+
+.events-container .events-header {
+    border-bottom: 2px solid #4285f4;
+}
+
+.events-container .events-header h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #4285f4
+}
+
+.events-details-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+}
+
+.events-details-container .event-name {
+    margin: 2rem;
+    text-align: center;
+}
+
+.events-details-container .event-description {
+    margin: 2rem;
+}
+
+.events-details-container .event-name p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #898ff7;
+    font-size: 2rem;
+}
+
+.events-details-container .event-description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.2rem
+}
