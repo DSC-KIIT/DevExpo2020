@@ -21,3 +21,9 @@
     color: white;
     padding-top: 1rem;
 }
+
+@media screen and (max-width: 800px) {
+    .agenda-head-container {
+        padding-left: 3rem;
+    }
+}
