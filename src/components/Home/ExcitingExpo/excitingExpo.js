@@ -45,6 +45,12 @@ const ExcitingExpo = () => {
                 See Agenda
             </Link>
         </button>
+
+        <button>
+            <Link style={{ color: "white", textDecoration: "none" }} to="/faq">
+                Visit FAQs
+            </Link>
+        </button>
       </div>
 
       <div className="image-container-two">
