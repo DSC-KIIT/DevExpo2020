@@ -147,24 +147,6 @@ const Events = () => {
         </div>
 
         <div className="event-name">
-          <p style={{ marginBottom: "1rem", textAlign: "left" }}>Chetan KVS</p>
-          <div style={{ margin: "0rem" }} className="event-description">
-            <p style={{ marginTop: "1rem", textAlign: "left" }}>
-              Product Designer at Unacademy
-            </p>
-          </div>
-        </div>
-
-        <div className="event-description">
-          <p>
-            Rise of the planet of designers. <br></br>
-            <br></br>
-            Design storytelling and overview of UI and UX and sort of fun
-            insights across design.
-          </p>
-        </div>
-
-        <div className="event-name">
           <p style={{ marginBottom: "1rem", textAlign: "left" }}>
             Sabyasachi Mukhopadhyay
           </p>
