@@ -22,17 +22,17 @@ const contact = () => {
               <div className="col-sm-6 col-md-3 col-lg-6 col-xl-5 offset-xl-1 item">
                 <h3>Presented By</h3>
                 <br />
-                <img src={dscLogo} width={200} />
+                <img alt="dsclogo" src={dscLogo} width={200} />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={mspcLogo} width={200} />
+                <img alt="msplogo" src={mspcLogo} width={200} />
                 <div>
                   <br />
                 </div>
                 <h3>University Partner</h3>
                 <br />
-                <img src={kiitLogo} width={100} />
+                <img alt="kiitlogo" src={kiitLogo} width={100} />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={kiitName} width={150} />
+                <img alt="kiitlogo2" src={kiitName} width={150} />
                 <div>
                   <br />
                 </div>
@@ -76,28 +76,28 @@ const contact = () => {
             <div className="col-lg-1"></div>
             <div className="col-lg-6">
               <a href="https://www.instagram.com/dsckiit/" target="__blank">
-                <img src={instaLogo} width={20} />
+                <img alt="instalogo" src={instaLogo} width={20} />
               </a>{" "}
               &nbsp; &nbsp;
               <a href="https://www.facebook.com/dsckiit/" target="__blank">
-                <img src={fbLogo} width={20} />
+                <img alt="fblogo" src={fbLogo} width={20} />
               </a>{" "}
               &nbsp; &nbsp;
               <a href="https://twitter.com/DscKiit" target="__blank">
-                <img src={twitterLogo} width={20} />
+                <img alt="twitterlogo" src={twitterLogo} width={20} />
               </a>
             </div>
             <div className="col-lg-4 privacy-text">
               <span>
                 {" "}
-                <a href="#" target="__blank">
+                <a href="http://dsckiit.in" target="__blank">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   Terms &amp; Conditions
                 </a>{" "}
                 &nbsp;&nbsp;
               </span>
               <span>
-                <a href="#" target="__blank">
+                <a href="http://dsckiit.in" target="__blank">
                   Privacy Policies
                 </a>
               </span>
@@ -118,15 +118,15 @@ const contact = () => {
             <div className="row" style={{width: '100%', margin: '0rem'}}>
               <div className="col text-center" style={{padding: '0rem'}}>
                 <a href="https://www.instagram.com/dsckiit/" target="__blank">
-                  <img src={instaLogo} width={20} />
+                  <img alt="instalogo" src={instaLogo} width={20} />
                 </a>{" "}
                 &nbsp; &nbsp;
                 <a href="https://www.facebook.com/dsckiit/" target="__blank">
-                  <img src={fbLogo} width={20} />
+                  <img alt="fblogo" src={fbLogo} width={20} />
                 </a>{" "}
                 &nbsp; &nbsp;
                 <a href="https://twitter.com/DscKiit" target="__blank">
-                  <img src={twitterLogo} width={20} />
+                  <img alt="twitterlogo" src={twitterLogo} width={20} />
                 </a>
               </div>
             </div>
@@ -134,7 +134,7 @@ const contact = () => {
             <div className="row privacy-text" style={{width: '100%', margin: '0rem'}}>
               <div className="col text-center" style={{margin: '0rem'}}>
                 <span className="text-white">
-                  <a href="#" target="__blank">
+                  <a href="http://dsckiit.in" target="__blank">
                     Privacy Policies
                   </a>
                 </span>
@@ -143,7 +143,7 @@ const contact = () => {
             <div className="row privacy-text" style={{width: '100%', margin: '0rem'}}>
               <div className="col text-center" style={{margin: '0rem'}}>
                 <span className="text-white">
-                  <a href="#" target="__blank">
+                  <a href="http://dsckiit.in" target="__blank">
                     Terms &amp; Conditions
                   </a>
                 </span>

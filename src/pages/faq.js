@@ -3,6 +3,8 @@ import Header from "../components/Home/Header/header"
 import Newsletter from "../components/Home/Newsletter/newsletter"
 import Contact from "../components/Home/Contact/contact"
 
+import faq_arrow from "../images/faqarrow.svg"
+
 import "./css/faq.css"
 
 const FAQ = () => {
@@ -12,14 +14,20 @@ const FAQ = () => {
 
       <div className="faq-container">
         <div className="faq-header-container">
-          <h1>FAQs</h1>
-          <h6>
-            Here are some of the most frequently asked questions on devexpo{" "}
+          <div>
+            <img alt="faq-arrow" src={faq_arrow} height="150px" style={{margin: '1rem'}}></img>
+          </div>
+          
+          <div>
+            <h1>FAQs</h1>
+            <h6>
+              Here are some of the most frequently asked questions on devexpo{" "}
+              <br></br>
+              anything else ? shoot your queries at :{" "}
+              <span>dsckiit@gmail.com</span>
+            </h6>
             <br></br>
-            anything else ? shoot your queries at :{" "}
-            <span>dsckiit@gmail.com</span>
-          </h6>
-          <br></br>
+          </div>    
         </div>
 
         <br></br>
@@ -69,6 +77,29 @@ const FAQ = () => {
             <span>swags</span> <br></br>
             And the most amazing part,{" "}
             <span>You can interact live with them</span>
+          </h3>
+
+          <br></br>
+          <br></br>
+
+          <h3 className="question">
+            I live outside Bhubaneswar. Can I register ?
+          </h3>
+
+          <h3 className="answer">
+            Yes you can, but make sure you have you own arrangement for accomodation.  <br></br>
+            There are a plethora of hotels near KIIT University you can book in advance.
+          </h3>
+
+          <br></br>
+          <br></br>
+
+          <h3 className="question">
+            I am not from KIIT University. Can I register ?
+          </h3>
+
+          <h3 className="answer">
+            As of now, its a NO from our side. We'll let you know if anything changes.
           </h3>
 
           <br></br>
@@ -144,7 +175,7 @@ const FAQ = () => {
           <h3 className="question">Something more to ask ?</h3>
 
           <h3 className="answer">
-            Just give us a shoutout at <span>dsckiit@gmail.com</span>
+            Just drop us a message or send us a mail at <span>dsckiit@gmail.com</span>
           </h3>
 
           <br></br>
