@@ -5,6 +5,20 @@
     background-color: #202124;
 }
 
+.parent-events-container .design1 {
+    position: relative;
+    top: 50rem;
+    float: left;
+    left: -3rem;
+}
+
+.parent-events-container .design2 {
+    position: relative;
+    bottom: 20rem;
+    float: right;
+    transform: rotate(120deg);
+}
+
 .events-container .events-header {
     border-bottom: 2px solid #4285f4;
 }
@@ -55,6 +69,10 @@
 
     .events-container {
         padding: 2.5rem;
+    }
+
+    .parent-events-container img {
+        display: none;
     }
 
     .events-details-container .event-name p {
