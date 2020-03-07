@@ -1,0 +1,28 @@
+.speaker-profiles-container {
+    background-color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.speaker-profiles-container .speaker img {
+    height: 20rem;
+    position: relative;
+    z-index: 4;
+}
+
+.speaker-profiles-container .speaker .ellipse1 {
+    height: 10rem;
+    position: relative;
+    z-index: 2;
+}
+
+.speaker-profiles-container .speaker .ellipse2 {
+    height: 6rem;
+    position: relative;
+    z-index: 1;
+    left: -3rem;
+}
