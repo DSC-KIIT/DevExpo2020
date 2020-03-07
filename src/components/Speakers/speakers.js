@@ -1,9 +1,13 @@
 import React from 'react'
 
+import SpeakerHeader from './speakerHeader'
+import SpeakerProfiles from './speakerProfile'
+
 const Speakers = () => {
     return (
         <div>
-            <h3>I am speaker component</h3>
+            <SpeakerHeader></SpeakerHeader>
+            <SpeakerProfiles></SpeakerProfiles>
         </div>
     )
 }
