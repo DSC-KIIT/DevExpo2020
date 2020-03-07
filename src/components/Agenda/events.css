@@ -14,9 +14,10 @@
 
 .parent-events-container .design2 {
     position: relative;
-    bottom: 20rem;
+    bottom: 17rem;
     float: right;
-    transform: rotate(120deg);
+    right: 1rem;
+    transform: rotate(90deg);
 }
 
 .events-container .events-header {
