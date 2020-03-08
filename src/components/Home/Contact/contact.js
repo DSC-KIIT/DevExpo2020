@@ -165,7 +165,7 @@ const contact = () => {
           textAlign: 'center'
         }}
       >
-        👨‍💻 with 💙 by DSC KIIT <br></br><br></br>
+        👨‍💻 with 💙 by DSC KIIT Web Team<br></br><br></br>
       </h6>
     </div>
   )
