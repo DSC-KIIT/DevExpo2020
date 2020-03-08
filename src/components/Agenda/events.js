@@ -172,7 +172,7 @@ const Events = () => {
           </div>
 
           <div className="event-name">
-            <p style={{ marginBottom: "1rem", textAlign: "left" }}>Aparjit Kar</p>
+            <p style={{ marginBottom: "1rem", textAlign: "left" }}>Aprajit Kar</p>
             <div style={{ margin: "0rem" }} className="event-description">
               <p style={{ marginTop: "1rem", textAlign: "left" }}>
                 Designing for mobility at Gojek

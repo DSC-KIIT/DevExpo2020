@@ -1,0 +1,47 @@
+.speaker-profiles-container {
+    background-color: #202124;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+}
+
+.speaker-profiles-container .speaker {
+    padding: 2rem;
+}
+
+.speaker-profiles-container .speaker h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    font-weight: 700;
+    color: #fdd835;
+    margin-top: 1rem;
+}
+
+.speaker-profiles-container .speaker h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    font-weight: 500;
+    color: white;
+}
+
+.speaker-profiles-container .speaker img {
+    height: 20rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .speaker-profiles-container {
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .speaker-profiles-container .speaker{
+        text-align: center;
+    }
+}
