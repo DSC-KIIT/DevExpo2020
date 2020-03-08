@@ -10,6 +10,7 @@
 
 .speaker-profiles-container .speaker {
     padding: 2rem;
+    text-align: center;
 }
 
 .speaker-profiles-container .speaker h1 {
@@ -18,7 +19,6 @@
     padding: 0rem;
     font-weight: 700;
     color: #fdd835;
-    margin-top: 1rem;
 }
 
 .speaker-profiles-container .speaker h4 {
@@ -29,10 +29,15 @@
     color: white;
 }
 
-.speaker-profiles-container .speaker img {
+.speaker-profiles-container .speaker .speaker-pic {
     height: 20rem;
 }
 
+
+.speaker-profiles-container .speaker .socialmedia img {
+    height: 30px;
+    padding: 0.5rem;
+}
 
 @media screen and (max-width: 800px) {
     .speaker-profiles-container {
