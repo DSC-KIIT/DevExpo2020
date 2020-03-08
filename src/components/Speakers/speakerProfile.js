@@ -9,55 +9,97 @@ import ChiragMishra from "../../images/speaker_headshots/ChiragMishra.jpg"
 import PrajnyasisBiswal from "../../images/speaker_headshots/PrajnyasisBiswal.jpg"
 import SabyasachiMukhopadhyay from "../../images/speaker_headshots/SabyasachiMukhopadhyay.jpg"
 
-// // Assets
-// import Ellipse2a from "../../images/speaker_page_assets/Ellipse2a.svg"
-// import Ellipse2b from "../../images/speaker_page_assets/Ellipse2b.svg"
-// import Ellipse3a from "../../images/speaker_page_assets/Ellipse3a.svg"
-// import Ellipse3b from "../../images/speaker_page_assets/Ellipse3b.svg"
-// import Ellipse4a from "../../images/speaker_page_assets/Ellipse4a.svg"
-// import Ellipse4b from "../../images/speaker_page_assets/Ellipse4b.svg"
-// import Ellipse5a from "../../images/speaker_page_assets/Ellipse5a.svg"
-// import Ellipse5b from "../../images/speaker_page_assets/Ellipse5b.svg"
-// import Ellipse6a from "../../images/speaker_page_assets/Ellipse6a.svg"
-// import Ellipse6b from "../../images/speaker_page_assets/Ellipse6b.svg"
-
-// import Reactangle2 from "../../images/speaker_page_assets/Rectangle2.svg"
-// import Reactangle3 from "../../images/speaker_page_assets/Rectangle3.svg"
-// import Reactangle4 from "../../images/speaker_page_assets/Rectangle4.svg"
-// import Reactangle5 from "../../images/speaker_page_assets/Rectangle5.svg"
-// import Reactangle6 from "../../images/speaker_page_assets/Rectangle6.svg"
-
+// Social Media Icons
 
 
 const SpeakerProfiles = () => {
     return (
         <div className="speaker-profiles-container">
             <div className="speaker">
-                <img alt="chetankvs" src={ChetanKVS}></img>
+                <img className="speaker-pic" alt="chetankvs" src={ChetanKVS}></img>
+                <div className="socialmedia">
+                    <a target="_blank" href="https://www.instagram.com/design_pilot/?hl=en">
+                        <img alt="instalogo" src="https://img.icons8.com/color/50/000000/instagram-new.png" />
+                    </a>
+                    
+                    <a target="_blank" href="https://www.linkedin.com/in/chethan-kvs-048583106/">
+                        <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
+                    </a>
+                    
+                    <a target="_blank" href="https://twitter.com/KvsChethan">
+                        <img alt="twitter" src="https://img.icons8.com/color/50/000000/twitter.png"></img>
+                    </a>
+                </div>
+
                 <h1>Chetan KVS</h1>
                 <h4>PRODUCT DESIGNER AT UNACADEMY</h4>
             </div>
 
             <div className="speaker">
-                <img alt="chiragmishra" src={ChiragMishra}></img>
+                <img className="speaker-pic" alt="chiragmishra" src={ChiragMishra}></img>
+                <div className="socialmedia">
+                    <a target="_blank" href="https://www.linkedin.com/in/chirag-mishra/">
+                        <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
+                    </a>
+
+                    <a target="_blank" href="https://www.facebook.com/chiragmishra93">
+                        <img alt="fblogo" src="https://img.icons8.com/color/50/000000/facebook-new.png" />
+                    </a>
+                </div>
+
                 <h1>Chirag Mishra</h1>
                 <h4>SDE II AT MICROSOFT INDIA</h4>
             </div>
 
             <div className="speaker">
-                <img alt="aprajitkar" src={AprajitKar}></img>
+                <img className="speaker-pic" alt="aprajitkar" src={AprajitKar}></img>
+
+                <div className="socialmedia">
+                    <a target="_blank" href="https://www.linkedin.com/in/aprajitkar/">
+                        <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
+                    </a>
+                    
+                    <a target="_blank" href="https://twitter.com/aprajit_kar">
+                        <img alt="twitter" src="https://img.icons8.com/color/50/000000/twitter.png"></img>
+                    </a>
+                </div>
+
                 <h1>Aprajit Kar</h1>
                 <h4>DESIGNING FOR MOBILITY AT GOJEK</h4>
             </div>
 
             <div className="speaker">
-                <img alt="sm" src={SabyasachiMukhopadhyay}></img>
+                <img className="speaker-pic" alt="sm" src={SabyasachiMukhopadhyay}></img>
+
+                <div className="socialmedia">
+                    <a target="_blank" href="https://www.facebook.com/SM2017Official">
+                        <img alt="fblogo" src="https://img.icons8.com/color/50/000000/facebook-new.png" />
+                    </a>
+                    
+                    <a target="_blank" href="https://www.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027/">
+                        <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
+                    </a>
+                </div>
+
+
                 <h1>Sabyasachi Mukhopadhyay</h1>
                 <h4>GDE AI/ML</h4>
             </div>
 
             <div className="speaker">
-                <img alt="prajnyasis" src={PrajnyasisBiswal}></img>
+                <img className="speaker-pic" alt="prajnyasis" src={PrajnyasisBiswal}></img>
+
+                <div className="socialmedia">
+                    <a target="_blank" href="https://www.linkedin.com/in/iampbiswal/">
+                        <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
+                    </a>
+                    
+                    <a target="_blank" href="https://twitter.com/iampbiswal">
+                        <img alt="twitter" src="https://img.icons8.com/color/50/000000/twitter.png"></img>
+                    </a>
+                </div>
+
+                
                 <h1>Prajnyasis Biswal</h1>
                 <h4>PROGRAM MANAGER, SKILLENZA</h4>
             </div>
