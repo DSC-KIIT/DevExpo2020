@@ -31,7 +31,7 @@ const SpeakerProfiles = () => {
                     </a>
                 </div>
 
-                <h1>Chetan KVS</h1>
+                <h1>Chethan KVS</h1>
                 <h4>PRODUCT DESIGNER AT UNACADEMY</h4>
             </div>
 
