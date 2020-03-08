@@ -90,14 +90,14 @@ const contact = () => {
             <div className="col-lg-4 privacy-text">
               <span>
                 {" "}
-                <a href="http://dsckiit.in" target="__blank">
+                <a href="http://dsckiit.in" target="__blank" style={{color: 'white'}}>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   Terms &amp; Conditions
                 </a>{" "}
                 &nbsp;&nbsp;
               </span>
               <span>
-                <a href="http://dsckiit.in" target="__blank">
+                <a href="http://dsckiit.in" target="__blank" style={{color: 'white'}}>
                   Privacy Policies
                 </a>
               </span>
@@ -134,7 +134,7 @@ const contact = () => {
             <div className="row privacy-text" style={{width: '100%', margin: '0rem'}}>
               <div className="col text-center" style={{margin: '0rem'}}>
                 <span className="text-white">
-                  <a href="http://dsckiit.in" target="__blank">
+                  <a href="http://dsckiit.in" target="__blank" style={{color: 'white'}}>
                     Privacy Policies
                   </a>
                 </span>
@@ -143,7 +143,7 @@ const contact = () => {
             <div className="row privacy-text" style={{width: '100%', margin: '0rem'}}>
               <div className="col text-center" style={{margin: '0rem'}}>
                 <span className="text-white">
-                  <a href="http://dsckiit.in" target="__blank">
+                  <a href="http://dsckiit.in" target="__blank" style={{color: 'white'}}>
                     Terms &amp; Conditions
                   </a>
                 </span>
@@ -165,7 +165,7 @@ const contact = () => {
           textAlign: 'center'
         }}
       >
-        👨‍💻 with 💙 by DSC KIIT Web Team<br></br><br></br>
+        👨‍💻 with 💙 by <a href="http://dsckiit.in" style={{color: '#2196fc'}}>DSC KIIT</a> Web Team<br></br><br></br>
       </h6>
     </div>
   )
