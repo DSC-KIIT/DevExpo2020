@@ -18,15 +18,15 @@ const SpeakerProfiles = () => {
             <div className="speaker">
                 <img className="speaker-pic" alt="chetankvs" src={ChetanKVS}></img>
                 <div className="socialmedia">
-                    <a target="_blank" rel="noopener" href="https://www.instagram.com/design_pilot/?hl=en">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/design_pilot/?hl=en">
                         <img alt="instalogo" src="https://img.icons8.com/color/50/000000/instagram-new.png" />
                     </a>
                     
-                    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/chethan-kvs-048583106/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chethan-kvs-048583106/">
                         <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
                     </a>
                     
-                    <a target="_blank" rel="noopener" href="https://twitter.com/KvsChethan">
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/KvsChethan">
                         <img alt="twitter" src="https://img.icons8.com/color/50/000000/twitter.png"></img>
                     </a>
                 </div>
@@ -38,11 +38,11 @@ const SpeakerProfiles = () => {
             <div className="speaker">
                 <img className="speaker-pic" alt="chiragmishra" src={ChiragMishra}></img>
                 <div className="socialmedia">
-                    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/chirag-mishra/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chirag-mishra/">
                         <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
                     </a>
 
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/chiragmishra93">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/chiragmishra93">
                         <img alt="fblogo" src="https://img.icons8.com/color/50/000000/facebook-new.png" />
                     </a>
                 </div>
@@ -55,11 +55,11 @@ const SpeakerProfiles = () => {
                 <img className="speaker-pic" alt="aprajitkar" src={AprajitKar}></img>
 
                 <div className="socialmedia">
-                    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/aprajitkar/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aprajitkar/">
                         <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
                     </a>
                     
-                    <a target="_blank" rel="noopener" href="https://twitter.com/aprajit_kar">
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/aprajit_kar">
                         <img alt="twitter" src="https://img.icons8.com/color/50/000000/twitter.png"></img>
                     </a>
                 </div>
@@ -72,11 +72,11 @@ const SpeakerProfiles = () => {
                 <img className="speaker-pic" alt="sm" src={SabyasachiMukhopadhyay}></img>
 
                 <div className="socialmedia">
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/SM2017Official">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/SM2017Official">
                         <img alt="fblogo" src="https://img.icons8.com/color/50/000000/facebook-new.png" />
                     </a>
                     
-                    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027/">
                         <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
                     </a>
                 </div>
@@ -90,11 +90,11 @@ const SpeakerProfiles = () => {
                 <img className="speaker-pic" alt="prajnyasis" src={PrajnyasisBiswal}></img>
 
                 <div className="socialmedia">
-                    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/iampbiswal/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/iampbiswal/">
                         <img alt="linkedin" src="https://img.icons8.com/color/50/000000/linkedin.png"></img>
                     </a>
                     
-                    <a target="_blank" rel="noopener" href="https://twitter.com/iampbiswal">
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/iampbiswal">
                         <img alt="twitter" src="https://img.icons8.com/color/50/000000/twitter.png"></img>
                     </a>
                 </div>
