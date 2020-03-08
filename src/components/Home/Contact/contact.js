@@ -154,6 +154,19 @@ const contact = () => {
           </div>
         </div>
       </div>
+      <h6
+        style={{
+          backgroundColor: 'black',
+          color: 'white',
+          margin: '0rem',
+          padding: '0rem',
+          fontFamily: 'Open Sans',
+          fontWeight: 500,
+          textAlign: 'center'
+        }}
+      >
+        👨‍💻 with 💙 by DSC KIIT <br></br><br></br>
+      </h6>
     </div>
   )
 }
