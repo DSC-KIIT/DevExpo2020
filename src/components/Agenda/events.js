@@ -136,7 +136,7 @@ const Events = () => {
           </div>
 
           <div className="event-name">
-            <p style={{ marginBottom: "1rem", textAlign: "left" }}>Chetan KVS</p>
+            <p style={{ marginBottom: "1rem", textAlign: "left" }}>Chethan KVS</p>
             <div style={{ margin: "0rem" }} className="event-description">
               <p style={{ marginTop: "1rem", textAlign: "left" }}>
                 Product Designer at Unacademy
