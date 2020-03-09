@@ -7,7 +7,7 @@ import ChetanKVS from "../../images/speaker_headshots/ChetanKVS.jpg"
 import PrajnyasisBiswal from "../../images/speaker_headshots/PrajnyasisBiswal.jpg"
 // import AprajitKar from "../../images/speaker_headshots/AprajitKar.jpg"
 // import ChiragMishra from "../../images/speaker_headshots/ChiragMishra.jpg"
-// import SabyasachiMukhopadhyay from "../../images/speaker_headshots/SabyasachiMukhopadhyay.jpg"
+import SabyasachiMukhopadhyay from "../../images/speaker_headshots/SabyasachiMukhopadhyay.jpg"
 
 // Social Media Icons
 
@@ -68,7 +68,7 @@ const SpeakerProfiles = () => {
                 <h4>DESIGNING FOR MOBILITY AT GOJEK</h4>
             </div> */}
 
-            {/* <div className="speaker">
+            <div className="speaker">
                 <img className="speaker-pic" alt="sm" src={SabyasachiMukhopadhyay}></img>
 
                 <div className="socialmedia">
@@ -84,7 +84,7 @@ const SpeakerProfiles = () => {
 
                 <h1>Sabyasachi Mukhopadhyay</h1>
                 <h4>GDE AI/ML</h4>
-            </div> */}
+            </div>
 
             <div className="speaker">
                 <img className="speaker-pic" alt="prajnyasis" src={PrajnyasisBiswal}></img>
