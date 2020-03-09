@@ -3,7 +3,7 @@ import {Link} from 'gatsby'
 
 import "./excitingExpo.css"
 import speakerImage from "../../../images/five.jpg"
-import speakerImage2 from "../../../images/four.jpg"
+import speakerImage2 from "../../../images/six.jpg"
 import audienceImage from "../../../images/two.jpg"
 import audienceImage2 from "../../../images/three.jpg"
 
