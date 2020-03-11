@@ -35,7 +35,7 @@ const SpeakerProfiles = () => {
                 <h4>PRODUCT DESIGNER AT UNACADEMY</h4>
             </div>
 
-            {/* <div className="speaker">
+            <div className="speaker">
                 <img className="speaker-pic" alt="chiragmishra" src={ChiragMishra}></img>
                 <div className="socialmedia">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chirag-mishra/">
@@ -49,7 +49,7 @@ const SpeakerProfiles = () => {
 
                 <h1>Chirag Mishra</h1>
                 <h4>SDE II AT MICROSOFT INDIA</h4>
-            </div> */}
+            </div>
 
             {/* <div className="speaker">
                 <img className="speaker-pic" alt="aprajitkar" src={AprajitKar}></img>
