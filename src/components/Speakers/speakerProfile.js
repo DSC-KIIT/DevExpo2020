@@ -6,7 +6,7 @@ import './css/speakerProfile.css'
 import ChetanKVS from "../../images/speaker_headshots/ChetanKVS.jpg"
 import PrajnyasisBiswal from "../../images/speaker_headshots/PrajnyasisBiswal.jpg"
 // import AprajitKar from "../../images/speaker_headshots/AprajitKar.jpg"
-// import ChiragMishra from "../../images/speaker_headshots/ChiragMishra.jpg"
+import ChiragMishra from "../../images/speaker_headshots/ChiragMishra.jpg"
 import SabyasachiMukhopadhyay from "../../images/speaker_headshots/SabyasachiMukhopadhyay.jpg"
 
 // Social Media Icons
