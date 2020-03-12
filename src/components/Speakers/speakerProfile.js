@@ -5,7 +5,7 @@ import './css/speakerProfile.css'
 // Headshots
 import ChetanKVS from "../../images/speaker_headshots/ChetanKVS.jpg"
 import PrajnyasisBiswal from "../../images/speaker_headshots/PrajnyasisBiswal.jpg"
-// import AprajitKar from "../../images/speaker_headshots/AprajitKar.jpg"
+import AprajitKar from "../../images/speaker_headshots/AprajitKar.jpg"
 import ChiragMishra from "../../images/speaker_headshots/ChiragMishra.jpg"
 import SabyasachiMukhopadhyay from "../../images/speaker_headshots/SabyasachiMukhopadhyay.jpg"
 
@@ -51,7 +51,7 @@ const SpeakerProfiles = () => {
                 <h4>SDE II AT MICROSOFT INDIA</h4>
             </div>
 
-            {/* <div className="speaker">
+            <div className="speaker">
                 <img className="speaker-pic" alt="aprajitkar" src={AprajitKar}></img>
 
                 <div className="socialmedia">
@@ -66,7 +66,7 @@ const SpeakerProfiles = () => {
 
                 <h1>Aprajit Kar</h1>
                 <h4>DESIGNING FOR MOBILITY AT GOJEK</h4>
-            </div> */}
+            </div>
 
             <div className="speaker">
                 <img className="speaker-pic" alt="sm" src={SabyasachiMukhopadhyay}></img>
